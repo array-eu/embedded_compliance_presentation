@@ -8,28 +8,25 @@
 
 ## Key concepts
 
-- Smart Devices and Linux Embedded: 64,7% in 2017 (growing)
-- Yocto: if you want to bake, you need recipes
+- Linux Embedded is eating Smart Devices market: 64,7% in 2017 (source: www.vdcresearch.com)
+- Packages, Distros: is it better to get ready meals or cook by yourself?  
+- [Yocto](https://www.yoctoproject.org/ecosystem/members/): if you want to bake, you need recipes
 - FLOSS: free as in speech, not as a beer
 - Copyleft: hacking copyright to protect freedom
-- Software dependencies 
-
-## FOSSology 
-
-- FOSSology<sup style="font-size: 0.6em;">@fa[trademark]</sup>  is a powerful tool, but many processes must be run manually, file-by-file, package-by-package
-- luckily, there are some CLI tools
-
+    - strong copyleft (f.e. GPL), weak copyleft (f.e. LGPL)
+    
 ---
 
-## Yocto
+## OSS Compliance Issues
 
-- are you all familiar with Yocto?
-- if you want to bake, you need recipes
-- hw manufacturers do not provide ad-hoc linux distros but Yocto recipes
-- only a fraction of OSS source code fetched by Yocto ends up in firmware
-- manually finding (hundreds of) relevant packages and uploading them to FOSSology: a crazy task
-
----
+- Software Dependencies and License Conflicts
+    - copyleft Vs. rest of the world
+- variety and complexity
+    - many kinds of FLOSS licenses (2500+)
+    - unclear and "creative" license statements
+    - packages with multiple licenses, dual license, etc.
+    - projects made of hundreds or even thousands of sw packages
+ 
 
 ### Technical Context
 
@@ -41,14 +38,21 @@
 
 ### Legal Context
 
-- proprietary/custom packages ("own packages") and dependencies of own packages deserve a more in depth analysis than "mere-aggregation" packages
+- proprietary/custom packages ("own packages") and dependencies of own packages deserve a more in depth analysis than "mere-aggregation" (in the GPL sense) packages
 - conflicts with OSS (Copyleft) licenses are more likely to happen with proprietary/custom packages (no public scrutiny)
+
+---
+
+## OSS Compliance tools: FOSSology 
+
+- FOSSology<sup style="font-size: 0.6em;">@fa[trademark]</sup>  is a powerful tool, but many processes must be run manually, file-by-file, package-by-package
+- luckily, there are some CLI tools
 
 ---
 
 ### How it works, in practice (1)
 
-- Snapshot of Yocto build dir, copied to a dedicated FOSSology machine (with Deptree)
+- Snapshot of Yocto build dir, copied to a dedicated FOSSology machine
 - Automatic [BAT](http://www.binaryanalysis.org/) scan
 - Automatic detection of dynamic deps for each binary file
 - Automatic detection of each binary file's package
@@ -69,7 +73,6 @@
 - license clearing of deltas with respect to previous versions of the same project
 - manually spot and mark static dependencies
 - Any legal issues?
-- Automatic sync of FOSSology results with Deptree 
 - present results in a simple and meaningful way
 
 ---
