@@ -31,13 +31,14 @@
 ## OSS Compliance Standards and Tools
 
 - an open standard: [SPDX](https://spdx.org)
-    - represent license information for files, packages and distribution in a standard language (both human and machine-readable
+    - represent license information in a standard language (both human- and machine-readable)
     - share licensing information across supply chain
 - an open source tool: [Fossology](https://www.fossology.org/) 
     - schedule automated scanners of legal text in source code
     - human validation and integration of automated scanners' results
     - automated generation of licensing reports and of SPDX files
 
+---
 
 ### Technical Context
 
