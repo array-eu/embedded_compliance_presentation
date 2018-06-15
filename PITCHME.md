@@ -55,11 +55,11 @@
 
 ---
 
-## OSS Compliance tools: FOSSology 
+## Our solution: Fossology, with a wrapper 
 
 - FOSSology<sup style="font-size: 0.6em;">@fa[trademark]</sup>  is a powerful tool, but many processes must be run manually, file-by-file, package-by-package
 - luckily, there are some CLI tools
-- we have developer a wrapper for Fossology, to add more automation and to present results in a simple and meaningful way
+- we have developed a wrapper for Fossology, to add more automation and to present results in a simple and meaningful way
 
 ---
 
