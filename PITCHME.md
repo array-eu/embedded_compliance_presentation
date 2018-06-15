@@ -28,6 +28,17 @@
  
 ---
 
+## OSS Compliance Standards and Tools
+
+- an open standard: [SPDX](https://spdx.org)
+    - represent license information for files, packages and distribution in a standard language (both human and machine-readable
+    - share licensing information across supply chain
+- an open source tool: [Fossology](https://www.fossology.org/) 
+    - schedule automated scanners of legal text in source code
+    - human validation and integration of automated scanners' results
+    - automated generation of licensing reports and of SPDX files
+
+
 ### Technical Context
 
 - Linux Embedded project with custom/proprietary code written in C/C++
@@ -47,6 +58,7 @@
 
 - FOSSology<sup style="font-size: 0.6em;">@fa[trademark]</sup>  is a powerful tool, but many processes must be run manually, file-by-file, package-by-package
 - luckily, there are some CLI tools
+- we have developer a wrapper for Fossology, to add more automation and to present results in a simple and meaningful way
 
 ---
 
