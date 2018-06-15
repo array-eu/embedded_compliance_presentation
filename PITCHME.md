@@ -1,9 +1,18 @@
 
-# Deptree:
+# Embedded Software: is your appliance compliant? 
+## Open Source is eating the embedded world, don't be eaten by mistakes!
 
 <h2 style="color: black;"> Automate OSS Compliance Work in Yocto<sup style="font-size: 0.6em;">@fa[registered]</sup> Projects</h2>
 
 ---
+
+## Key concepts
+
+- Smart Devices and Linux Embedded: 64,7% in 2017 (growing)
+- Yocto: if you want to bake, you need recipes
+- FLOSS: free as in speech, not as a beer
+- Copyleft: hacking copyright to protect freedom
+- Software dependencies 
 
 ## FOSSology 
 
