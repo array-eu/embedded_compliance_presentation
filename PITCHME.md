@@ -23,7 +23,7 @@
 - variety and complexity
     - many kinds of FLOSS licenses (2500+)
     - unclear and "creative" license statements
-    - packages with multiple licenses, dual license, etc.
+    - packages with multiple licenses, dual licensing, or license that varies depending on the combination with other packages, etc.
     - projects made of hundreds or even thousands of sw packages
  
 ---
@@ -92,35 +92,13 @@
 ### Let's see it in action
 
 ---
-### TODO (1)
+### TODO
 
-<ul>
-    <li style="font-size:xxx-large">continuous integration in the build process</li>
-    <ul>
-        <li style="font-size:xx-large">implementation of a full CLI interface</li>
-    </ul>
-    <li style="font-size:xxx-large">modularity (building block approach) and independency from any specific tool</li>
-    <ul>
-        <li style="font-size:xx-large">define main building block types that are always needed to implement an automatic OSS Compliance process (regardless of the specific technical environment)</li>
-        <li style="font-size:xx-large">implement a db of packages, licenses and SPDX data</li>
-    </ul>
-</ul>
-
----
-### TODO (2)
-
-- Yocto-specific building blocks:
-    - automatic snapshot and copy of yocto build dir on FOSSology machine
-    - automatic detection of static dependencies
-    - automatic mapping of irrelevant files
-
----
-### TODO (3)
-
+- continuous integration in the build process
+- implementation of a full CLI interface</li>
+- automatic detection of irrelevant files
 - license mapping at binary level (and not only at package level)
 - enable implementation of company's internal OSS policies
-
-- a better name?
 
 ---
 @title[Copyright and License]
