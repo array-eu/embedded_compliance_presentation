@@ -7,11 +7,11 @@
 
 ## Key concepts
 
-- Linux Embedded is eating Smart Devices market: 64,7% in 2017 (source: www.vdcresearch.com)
-- Packages, Distros: is it better to get ready meals or cook by yourself?  
-- [Yocto](https://www.yoctoproject.org/ecosystem/members/): if you want to bake, you need recipes
-- FLOSS: free as in speech, not as a beer
-- Copyleft: hacking copyright to protect freedom
+- **Linux Embedded** is eating Smart Devices market: 64,7% in 2017 (source: www.vdcresearch.com)
+- **Packages, Distros**: is it better to get ready meals or cook by yourself?  
+- [**Yocto**](https://www.yoctoproject.org/ecosystem/members/): if you want to bake, you need recipes
+- **FLOSS**: free as in speech, not as a beer
+- **Copyleft**: hacking copyright to protect freedom
     - strong copyleft (f.e. GPL), weak copyleft (f.e. LGPL)
     
 ---
