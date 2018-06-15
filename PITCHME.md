@@ -1,5 +1,5 @@
 
-# Embedded Software: is your appliance compliant? 
+## Embedded Software: is your appliance compliant? 
 ## Open Source is eating the embedded world, don't be eaten by mistakes!
 
 <h2 style="color: black;"> Automate OSS Compliance Work in Yocto<sup style="font-size: 0.6em;">@fa[registered]</sup> Projects</h2>
@@ -27,6 +27,7 @@
     - packages with multiple licenses, dual license, etc.
     - projects made of hundreds or even thousands of sw packages
  
+---
 
 ### Technical Context
 
