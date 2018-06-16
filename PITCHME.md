@@ -15,15 +15,23 @@
     
 ---
 
-## OSS Compliance Issues
+## OSS Compliance Issues (1)
 
 - Software Dependencies and License Conflicts
     - copyleft Vs. rest of the world
+
+---
+
+## OSS Compliance Issues (2)
+
 - variety and complexity
     - many kinds of FLOSS licenses (2500+)
     - unclear and "creative" license statements (developers see themselves as artists...)
     - packages with multiple licenses, dual licensing, or license that varies depending on the combination with other packages, etc.
-    - each package is made of tens, hundreds or thounsands of files: some are legally irrelevant (because they do not end up in binary code; but it may depend on compiling options), some have no clear license, they may came from different sources, have different licenses
+    - each package is made of tens, hundreds or thounsands of files:
+     - some are legally irrelevant (because they do not end up in binary code; but it may depend on compiling options) 
+     - some have no clear license, 
+     - they may come from different sources, have different licenses
  
 ---
 
