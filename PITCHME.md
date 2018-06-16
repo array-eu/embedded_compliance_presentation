@@ -3,6 +3,8 @@
 
 <h3 style="color: black;"> Open Source is eating the embedded world, don't be eaten by mistakes!</h3>
 
+**Carlo Piana** and **Alberto Pianon**
+
 ---
 
 ## Key concepts
