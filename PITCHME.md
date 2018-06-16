@@ -29,10 +29,10 @@
 
 - each package is made of tens, hundreds or thounsands of files:
     - some are legally irrelevant, since they do not end up in binary code (but it may depend on compiling options) 
-    - some have no clear license, 
-    - they may come from different sources, have different licenses
+    - some have no clear license, or reference other files 
+    - they may come from different sources and have different licenses
     
-- a LOT of variety and complexity
+- **a LOT of variety and complexity**
  
 ---
 
@@ -41,9 +41,9 @@
 - an open standard: [SPDX](https://spdx.org)
     - represent license information in a standard language (both human- and machine-readable)
     - share licensing information across supply chain
-- an open source tool: [Fossology](https://www.fossology.org/) 
+- an open source tool: [Fossology](https://www.fossology.org/features/) 
     - schedule automated scanners of legal text in source code
-    - human validation and integration of automated scanners' results
+    - human validation and integration of automated scan results
     - automated generation of licensing reports and of SPDX files
 
 ---
