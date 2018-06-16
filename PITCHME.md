@@ -50,9 +50,10 @@
 
 - Linux Embedded project with custom/proprietary code written in C/C++
 - dependencies: only static and dynamic linking
-- don't touch the compiling machine! 
 - is it better to get ready meals or cook by yourself? 
 - if you want to bake, you need recipes: [**Yocto**](https://www.yoctoproject.org/ecosystem/members/)
+- "Don't touch the compiling machine!"
+- "We do not exactly know what we put inside..."
 
 ---
 
