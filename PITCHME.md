@@ -22,16 +22,15 @@
 
 ---
 
-## OSS Compliance Issues (2)
+## OSS Compliance Issues: Variety and Complexity
 
-- variety and complexity
-    - many kinds of FLOSS licenses (2500+)
-    - unclear and "creative" license statements (developers see themselves as artists...)
-    - packages with multiple licenses, dual licensing, or license that varies depending on the combination with other packages, etc.
-    - each package is made of tens, hundreds or thounsands of files:
-     - some are legally irrelevant (because they do not end up in binary code; but it may depend on compiling options) 
-     - some have no clear license, 
-     - they may come from different sources, have different licenses
+- many kinds of FLOSS licenses (2500+)
+- unclear and "creative" license statements (developers are artists...)
+- packages with multiple licenses, dual licensing, or license that varies depending on the combination with other packages, etc.
+- each package is made of tens, hundreds or thounsands of files:
+    - some are legally irrelevant, since they do not end up in binary code (but it may depend on compiling options) 
+    - some have no clear license, 
+    - they may come from different sources, have different licenses
  
 ---
 
