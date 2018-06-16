@@ -31,9 +31,7 @@
     - some are legally irrelevant, since they do not end up in binary code (but it may depend on compiling options) 
     - some have no clear license, or reference other files 
     - they may come from different sources and have different licenses
-    
-- **a LOT of variety and complexity**
- 
+     
 ---
 
 ## OSS Compliance Standards and Tools
