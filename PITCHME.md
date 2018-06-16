@@ -38,7 +38,7 @@
 
 ## OSS Compliance Standards and Tools
 
-- an open standard: [SPDX](https://spdx.org)
+- an open standard: [SPDX](https://spdx.org/using-spdx-documents)
     - represent license information in a standard language (both human- and machine-readable)
     - share licensing information across supply chain
 - an open source tool: [Fossology](https://www.fossology.org/features/) 
