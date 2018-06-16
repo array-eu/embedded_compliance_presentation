@@ -54,7 +54,7 @@
 - dependencies: only static and dynamic linking
 - don't touch the compiling machine! 
 - is it better to get ready meals or cook by yourself? 
-- if you want to bake, you need recipes: [**Yocto**](https://www.yoctoproject.org/ecosystem/members/): 
+- if you want to bake, you need recipes: [**Yocto**](https://www.yoctoproject.org/ecosystem/members/)
 
 ---
 
