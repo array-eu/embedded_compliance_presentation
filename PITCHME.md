@@ -34,6 +34,10 @@
      
 ---
 
+# Legal risks
+
+---
+
 ## OSS Compliance Standards and Tools
 
 - an open standard: [SPDX](https://spdx.org/using-spdx-documents)
