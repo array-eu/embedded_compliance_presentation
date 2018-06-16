@@ -7,12 +7,11 @@
 
 ## Key concepts
 
-- **Linux Embedded** is eating Smart Devices market: 64,7% in 2017 (source: www.vdcresearch.com)
-- **Packages, Distros**: is it better to get ready meals or cook by yourself?  
-- [**Yocto**](https://www.yoctoproject.org/ecosystem/members/): if you want to bake, you need recipes
 - **FLOSS**: free as in speech, not as a beer
 - **Copyleft**: hacking copyright to protect freedom
-    - strong copyleft (f.e. GPL), weak copyleft (f.e. LGPL)
+    - strong copyleft (f.e. GPL) vs. weak copyleft (f.e. LGPL)
+- **Linux Embedded** is eating Smart Devices market: 64,7% in 2017 (source: www.vdcresearch.com)
+- **Software Packages**: a Linux Embedded distribution is made of hundreds (or thousands) of sw packages, each one with its own license(s) 
     
 ---
 
@@ -22,9 +21,9 @@
     - copyleft Vs. rest of the world
 - variety and complexity
     - many kinds of FLOSS licenses (2500+)
-    - unclear and "creative" license statements
+    - unclear and "creative" license statements (developers see themselves as artists...)
     - packages with multiple licenses, dual licensing, or license that varies depending on the combination with other packages, etc.
-    - projects made of hundreds or even thousands of sw packages
+    - each package is made of tens, hundreds or thounsands of files: some are legally irrelevant (because they do not end up in binary code; but it may depend on compiling options), some have no clear license, they may came from different sources, have different licenses
  
 ---
 
@@ -45,6 +44,8 @@
 - Linux Embedded project with custom/proprietary code written in C/C++
 - dependencies: only static and dynamic linking
 - don't touch the compiling machine! 
+- is it better to get ready meals or cook by yourself? 
+- if you want to bake, you need recipes: [**Yocto**](https://www.yoctoproject.org/ecosystem/members/): 
 
 ---
 
